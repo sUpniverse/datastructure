@@ -11,9 +11,7 @@ public class Stack {
     }
 
     public Stack() {
-        this.size = 10;
-        this.front = 0;
-        this.objects = new Object[size];
+        this(10);
     }
 
     public void push(Object object) {
